@@ -1,0 +1,188 @@
+.myskills
+{
+    top: 17.86%;
+    bottom: 100%;
+    height:19%;
+    width: 100%;
+    position: relative;
+}
+.skillBox /* Creates and places the grey "Skill" divider */
+{
+    position: relative;
+    height: 27.58%;
+    width: 87.37%;
+    margin:  auto 2.1% auto 10.6%;
+    background-color:rgba(0, 0, 0, .85);
+    z-index: 2;
+}
+.skillsRed
+{
+    top:10px;
+    right: 2.1%;
+    Left:9.9%; 
+    position: absolute;
+    height: 27.58%;
+    width: 87.37%;
+    background-color: #a40505;
+    z-index: 1;
+}
+
+.skillsIntro /* Placement of the text for the "Skills" section heading*/
+{
+    margin:11.93% 2.47% 20px 20px;
+    color: white;
+}
+
+h4 /* Placement of the text 'Skills'*/ 
+{
+    margin-left:86.2%;
+    margin-right: 2.47%;
+    margin-top: 11.93%;
+    color: white;
+}
+
+h5 /* Placement of the text 'UX'*/
+{
+    color: rgba(0, 0, 0, 0.35);
+    font-weight: 400;
+    font-size: 10vw;
+    margin-top: 8.51%;
+    margin-right: 12.64%;
+    margin-left: 72.73%;
+    color: rgba(240, 191, 16, 0.5);
+}
+
+.flexContainer
+{
+    margin: 75px 16.12% 75px 11.95%;
+    width: 71.95%;
+    height: 61%;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.uxSkills /* Placement & text modifiers for items in the list of skills */
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.75vw;
+}.skillsList
+{
+    width: 1036px;
+    height: 520px;
+    margin-left: 0px;
+}
+
+.myWork
+{
+    height: 30.18%;
+    width: 100%;
+    top: 18.82%;
+    position: relative;
+}
+
+.caseStudies /* Placement of the text 'Case Studies' and the underline*/
+{
+    height: 4.922%;
+    width: 30.556%;
+    color: white;
+    margin: 50px 62.709% auto 8.195%;
+}.underline
+{
+    height: 2px;
+    width: 85.973%;
+    position: absolute;
+    top:127px;
+    margin:0 5.833% 92.084% 8.195%; 
+    background-color: white;
+}
+
+.redBox /* Placement of the "Case Study" section background */
+{
+    height: 99.992%;
+    width: 100%; 
+    background: rgba(164, 5, 5, 1);
+    position: relative;
+    z-index:-1;
+}
+
+.workBox
+{
+    height: 98.625%;
+    width: 100%;
+    top:0;
+    margin: 10px auto 10px auto;
+    background: rgba(0, 0, 0, 0.85);
+    position: absolute;
+}
+
+.caseStudy,#caseStudy2,#caseStudy3 /* Placement and formatting of the individual case study tiles */
+{
+    position: absolute;
+    top: 0;
+    height: 16.404%;
+    width: 83.612%;
+    margin: 194px 9.584% auto 6.806%;
+    background: rgba(229, 229, 229, 1); 
+    border: 1px solid rgba(0, 0, 0, .6);   
+}
+
+.caseStudy:hover,#caseStudy2:hover,#caseStudy3:hover
+{
+    box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px rgba(164, 5, 5, 1);
+}
+.cs1,.cs2,.cs3 /* Placement of the pictures for each case study */
+{
+    position: absolute;
+    height: 122.269%; 
+    width: 32.28%;
+    margin:10px auto -5.399% 15px;
+    
+}
+.cs1Logo,.cs2Logo,.cs3Logo
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.cs1Overlay,.cs2Overlay,.cs3Overlay
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.cs1:hover .cs1Overlay, .cs2:hover .cs2Overlay, .cs3:hover .cs3Overlay
+{
+    height: 100%;
+}
+
+
+
+pre /* Formatting of the case study text*/
+{
+    position: relative;
+    color: black;
+    font-size: 150%;
+    line-height: 26px;
+    height: 93.75%;
+    width: auto;
+    overflow: hidden;
+    margin: 0.831% auto 0.416% 35.549%;
+}
+
+#caseStudy2 /* Placement of the text for the second case study */
+{
+    margin-top: 42.292%;
+    margin-bottom: auto;
+}
+#caseStudy3 /* Placement of the text for the third case study */
+{
+    margin-top: 71.945%;
+    margin-bottom: auto;
+}

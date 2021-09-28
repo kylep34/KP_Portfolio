@@ -1,0 +1,376 @@
+html, body
+    {
+        margin:0;
+        padding:0;
+    }
+body
+{
+    height: 4848px;
+    width: 100%;
+}
+
+.navigation /* Modifies the style of the main navigation background */
+    {
+        position: absolute;
+        position: fixed;
+        top: 0;
+        height: 90px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }   .logo /* Placement for nav logo */
+        {
+            width: 60px;
+            height: 50px;
+            margin-top: 20px;
+            margin-left: 15px;
+        }
+
+.aboutMe
+    {
+        height: 10.25%;
+        width: 100%;
+        top: 16.1%;
+        bottom: 100%;
+        position: relative;
+    }
+
+
+
+.aboutMebox /* Placement of the about me divider */
+    {
+        margin-top: 0%;
+        right: 2.1%;
+        Left:10.6%; 
+        position: relative;
+        width: 87.65%;
+        height: 51.93%;
+        background-color: rgba(0, 0, 0, .85);
+        z-index: 2;
+    }
+
+    .aboutLine
+    {
+        height: 7px;
+        width: 100%;
+        background: linear-gradient(to left, #91bda4, #020000);
+        z-index: 3;
+        position: relative;
+    }
+
+.aboutRed
+    {
+        top:10px;
+        right: 2.1%;
+        Left:9.9%; 
+        position: absolute;
+        width: 87.65%;
+        height: 51.93%;
+        background-color: #a40505;
+        z-index: 1;
+    }
+
+.abouttext /* Placement of the about me text */
+    {
+        width: 76%;
+        height: 50.5%;
+        line-height: normal;
+        font-size: 1.75vw;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        margin: 0% 15.3%  12.7%;
+        position: relative;
+    }    
+
+.aboutHeading /* Placement of the about heading */
+    {
+        top: 0;
+        font-size: 5vw;
+        margin: 11.99% 83.5% 1.6% 1.6%;
+        height: 33.07%;
+        width: 15.27%;
+        z-index: 1;
+        position: absolute;
+    }
+
+nav /* Placement for <nav> tag */
+{
+    position: absolute; 
+    position: fixed;  
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 90px;
+    z-index:3;
+}   ul /* Placement of the <ul> item */
+    {
+        margin-top: 0px;
+        width: 100%;
+        margin-left: 61.12%;
+        margin-right: 20px;
+        vertical-align: 50%;
+        max-height: 90px;
+        max-width:100%; 
+    } .inline-block /* Placement & formatting for individual nav items */
+    {
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        color: white;
+        display: inline-block;
+        padding: 30px 50px 0px 0px;
+    } .line /* Placement & formatting of the white line under all 4 nav items */
+    {
+        position: absolute;
+        margin-left:-13px;
+        width: 33.542%;
+        border: 2px solid white;
+    } .selectorLine /* Placement & formatting of the 'active' nav item indecator */ 
+    {
+        position: absolute;
+        border: 2px solid black;
+        margin-left: -13px;
+        width: 94px;
+        z-index: 3;   
+    } 
+
+.heroImg /* Placement of the hero image class*/
+{
+    position: absolute;
+    top: 0;
+    height: 908px;
+    width: 100%;
+    z-index: -1;
+}   .stars /* Placement of the hero image image*/ 
+    {
+        position: absolute;
+        z-index:-1;
+        margin-top: 0%;
+        height: 908px;
+        width: 100%;
+    }
+
+h1,h2,h4,h5,pre /* Formatting of text */
+{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    z-index: 1;
+}   h1, h4 /* Formatting and placement of text used for intro heading */
+    {
+        margin-top:23.75%;
+        font-size: 5vw;
+        font-weight: 500; 
+    } h2 /* Formatting and placement of text used with <h2> tag */
+    {
+        margin-top:29.59%;
+        font-size: 2.2vw;
+        font-weight: 400;
+    }
+
+
+
+.contact
+    {
+        position: relative;
+        top: 18.8%;
+        width: 100%;
+        height: 12.294%;
+    }
+
+.contactMe
+    {
+        color: black;
+        margin: 75px 29.167% auto 29.167%;
+        width: 41.667%;
+        font-size: 375%;
+        text-align: center;
+        border-bottom: 3px solid black;
+    } 
+
+.card1
+    {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        height: 197px;
+        width: 285px;
+        top: 0px;
+        margin: 373px 32px 507px 228px;
+    } 
+
+#contactheader
+{
+    width: 69.445%;
+    font-size: 300%;
+    color: black;
+    top: 0px;
+    text-align: center;
+    margin: 13.889% 16.598% auto 16.598%;
+}    
+
+#gmail
+{
+    position: absolute;
+    height: 57.677%;
+    width: 52.634%;
+    margin: 5.615% 23.16% auto 23.16%;
+}
+
+#email
+{
+    margin: 53.688% 9.125% 5.617% 9.125%;
+    font-size: 165%;
+    text-align: center;
+}
+
+.card2
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 0px;
+    margin: 373px 577px 507px 577px;
+    height: 197px;
+    width: 285px;
+}
+
+#phone
+{
+    position: absolute;
+    height: 57.361%;
+    width: 39.65%;
+    margin: 5.615% 30.18% auto 30.18%;
+}
+
+#phonenumber
+{
+    height: 14.22%;
+    width: 85%;
+    margin: 53.685% 9.125% 5.615% 9.125%;
+    font-size: 165%;
+    text-align: center;
+}
+
+.card3
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: 197px;
+    width: 285px;
+    top: 0px;
+    margin: 373px 227px 507px 928px;
+}
+
+#linkedin
+{
+    position: absolute;
+    height: 57.365%;
+    width: 34.699%;
+    margin: 5.615% 32.653% auto 32.653%;
+    font-size: 165%;
+}
+
+#mylinkedin
+{
+    width: 95.79%;
+    height: 14.22%;
+    margin: 53.685% 2.11% 5.615% 2.11%;
+    font-size: 24px;
+}
+
+
+
+.footer
+{
+    position: absolute;
+    top: 4788px;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+.h6
+{
+    color: white;
+    font-size: 18px;
+}
+#cp2021
+{
+    position: absolute;
+    height: 21px;
+    width: 122px;
+    margin: 20px 1286px 19px 32px;
+    color: white;
+}
+
+#figma
+{
+    position: absolute;
+    height: 21px;
+    width: 122px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.figma
+{
+    position: absolute;
+    top: 0px;
+    height: 30px;
+    width: 144px;
+    margin: 15px 216px 15px 1081px;
+    color: white;
+}
+#figmaLogo
+{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-left: 114px;
+}
+
+.vsCode
+{
+    position: absolute;
+    top: 0px;
+    height: 30px;
+    width: 116px;
+    margin:15px 20px 15px 1304px;
+    color: white;
+}
+#vsCode
+{
+    position: absolute;
+    height: 21px;
+    width: 115.89px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+#vsCodeLogo
+{
+    position: absolute;
+    height: 30px;
+    width: 29.89px;
+    margin-left: 86px;
+}
+
+.footerdivider
+{
+    position: absolute;
+    width: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1235px;
+    border: 1px solid white;
+    transform: rotate(-90deg);
+}
+
+
+
+
+
