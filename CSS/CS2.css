@@ -1,4 +1,4 @@
-.heading2
+.cs2heading
 {
     position: absolute;
     height: 716px;
@@ -6,8 +6,208 @@
     background-color: #C4C4C4;
 }
 
+.cs2middlebox
+{
+    position: absolute;
+    height: 79.857%;
+    width: 100%;
+    margin: 50.721% auto 88.833% auto;
+}
+
+.cs2bottombox
+{
+    position: absolute;
+    height: 1223px;
+    width: 100%;
+    top: 1452px;
+    background-color: rgba(0, 0, 0, .85);
+}
 .cs2title
 {
     width:33.79%;
     margin:7.205% 18.516% 2.882% 47.695%
+}
+
+.cs2Proto
+{
+    position: absolute;
+    top: 0;
+    margin: 161px 849px auto 241px;
+}
+
+.cs2CardSort
+{
+    position: absolute;
+    top: 0;
+    margin: 262px 728px auto 362px;
+}
+
+.cs2SiteMap
+{
+    position: absolute;
+    top: 0;
+    margin: 241px 977px auto 113px; 
+}
+
+.cs2RedesignMap
+{
+    position: absolute;
+    top: 0;
+    margin: 422px 1040px auto 50px;
+}
+
+.cs2Style
+{
+    position: absolute;
+    top: 0;
+    margin: 398px 740px auto 350px;
+}
+
+.cs2protoBanner, .cs2CardSortBanner, .cs2banner
+{
+    position: absolute;
+    height: 312px;
+    width: 100%;
+    margin-top: 3.891%
+}
+
+.cs2Proto:hover, .cs2CardSort:hover, .cs2SiteMap:hover, .cs2RedesignMap:hover, .cs2Style:hover
+{
+    box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px rgba(164, 5, 5, 1);
+    z-index:1;
+    width: 350px;
+    opacity: 0.9;
+}
+
+#cs2Proto, #cs2CardSort, #cs2SiteMap, #cs2RedesignMap, #cs2Style
+{
+    width: 600px;
+    margin: -24px auto -24px 10px ;
+    position: absolute;
+}
+
+#cs2CardSort
+{
+    margin: -34px auto -34px 10px;
+}
+
+#cs2SiteMap
+{
+    margin: -25px auto -25px 10px;
+}
+
+#cs2RedesignMap
+{
+    margin: 6px auto 6px 10px;
+}
+
+#cs2Style
+{
+    margin: -59px auto -59px 10px;
+}
+
+#cs2Proto:hover, #cs2CardSort:hover, #cs2SiteMap:hover, #cs2RedesignMap:hover, #cs2Style:hover
+{
+    box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px rgba(164, 5, 5, 1);
+    width: 650px;
+    z-index: 1;
+}
+
+#bannerHead
+{
+    position: absolute;
+    width: max-content;
+    height: 49px;
+    text-decoration: underline;
+    font-size: 42px;
+    color: white;
+    margin: 15px 492px 248px 630px;
+}
+
+#bannertxt
+{
+    position: absolute;
+    width: 485px;
+    line-height: 31px;
+    font-size: 28px;
+    max-height: 180px;
+    color: white;
+    margin: 89px 262px auto 660px; 
+}
+
+.lofiWires
+{
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+    margin-top: 85px;
+    padding: 50px 0px 25px 0px;
+    text-decoration: underline;
+}
+
+.cs2hifiWires
+{
+    font-size: 36px;
+    height: 42px;;
+    width: 100%;
+    text-align: center;
+    margin-top: 690px;
+    margin: 50px 0px 25px 0px;
+    text-decoration: underline;
+}
+
+a
+{
+    color: #EFC531;
+}
+a:visited
+{ 
+    color:#e2dabc;
+}
+
+
+.figmaProto, .figmaBoard
+{
+    width: 227px;
+    height: 32px;
+    font-size: 20px;
+    text-indent: 15px;
+    margin: 0px 1163px 0px 0px;
+}
+
+
+.cs2row1
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 20px;
+    height: 157px;
+    width: 1330px;
+    margin: 266px 30px auto 30px;
+}
+
+.cs2row2, .cs2row4
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 20px;
+    height: 157px;
+    width: 1330px;
+    margin: 60px 30px auto 30px;
+}
+
+.cs2row3
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 20px;
+    height: 157px;
+    width: 1330px;
+    margin: 107px 30px auto 30px;
+}
+
+.w-250px 
+{
+    width: 1300px ;
+    margin: 1% auto auto auto;
 }

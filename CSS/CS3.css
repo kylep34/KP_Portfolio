@@ -12,3 +12,186 @@
     width: 28.603%;
     margin: 7.205% 24.208% 40px 47.695%;
 }
+
+.cs3bottombox
+{
+    position: absolute;
+    height: 1315px;
+    width: 100%;
+    top: 1452px;
+    background-color: rgba(0, 0, 0, .85);
+}
+
+.cs3ProtoPersona
+{
+    position: absolute;
+    width: 300px;
+    top: 0;
+    margin: 133px 1040px auto 50px;
+    border: 1px solid black;
+}
+
+.cs3UserPersona
+{
+    position: absolute;
+    width: 300px;
+    top: 0;
+    margin: 139px 744px auto 346px;
+    border: 1px solid black;
+}
+
+.cs3Interviews
+{
+    position: absolute;
+    width: 300px;
+    top: 0;
+    margin: 267px 1001px auto 69px;
+    border: 1px solid black;
+}
+
+.cs3Affinity
+{
+    position: absolute;
+    width: 300px;
+    top: 0;
+    margin: 281px 768px auto 322px;
+    border: 1px solid black;
+}
+.cs3StoryBoard
+{
+    position: absolute;
+    width: 300px;
+    top: 0;
+    margin: 407px 1040px auto 50px;
+    border: 1px solid black;
+}
+
+.cs3UserFlow
+{
+    position: absolute;
+    width: 300px;
+    top: 0;
+    margin: 437px 778px auto 312px;
+    border: 1px solid black;
+}
+
+.cs3ProtoPersona:hover, .cs3UserPersona:hover, .cs3Interviews:hover, .cs3Affinity:hover, .cs3StoryBoard:hover, .cs3UserFlow:hover
+{
+    box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px rgba(164, 5, 5, 1);
+    z-index:1;
+    width: 350px;
+    opacity: 0.9;
+}
+
+.csbanner
+{ 
+    position: absolute;
+    height: 312px;
+    width: 100%;
+    margin-top: 3.891%
+}
+
+#cs3ProtoPersona, #cs3UserPersona, #cs3Interviews, #cs3Affinity, #cs3Storyboard, #cs3UserFlow
+{
+    width: 600px;
+    margin: -10px auto -10px 10px ;
+    position: absolute;
+}
+
+#cs3UserPersona
+{
+    margin: -26px auto -26px 10px;
+}
+
+#cs3Interviews
+{
+    margin: -18px auto -18px 10px;
+}
+
+#cs3Affinity
+{
+    margin: -34px auto -34px 10px;
+}
+
+#cs3ProtoPersona:hover, #cs3UserPersona:hover, #cs3Interviews:hover, #cs3Affinity:hover, #cs3Storyboard:hover, #cs3UserFlow:hover
+{
+    box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px rgba(164, 5, 5, 1);
+    width: 650px;
+    z-index: 1;
+}
+
+.cs3hifiWires
+{
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    padding: 50px 0px 25px 0px;
+    text-decoration: underline;
+}
+
+
+.cs3row1
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 30px;
+    height: 280px;
+    width: 1270px;
+    margin: 205px 60px auto 60px;
+}
+
+.cs3row2
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 30px;
+    height: 216px;
+    width: 1270px;
+    margin: 120px 60px auto 60px;
+}
+.cs3row3
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 30px;
+    height: 280px;
+    width: 620px;
+    margin: 50px 385px 100px 385px;
+}
+
+
+.w-350px
+{
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 1% auto auto auto;
+}
+
+.w-300px
+{
+    width: 1200px ;
+    margin: 1% auto auto auto;
+}
+.carousel-inner
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.carousel-caption
+{
+    position: unset;
+    padding-top: 75px;
+}
+.carousel-indicators
+{
+    top: 0;
+    height: max-content;
+    margin: 705px 0 0 0;
+    background-color: rgba(0, 0, 0, .5);
+}
+

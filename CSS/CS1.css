@@ -13,7 +13,8 @@
     position: absolute;
     height: 650px;
     width:  100%;
-    background-color: #C4C4C4;
+    background-color: rgba(0, 0, 0, 0.85);
+    ;
 }
 .cs1title, .cs2title
 {
@@ -26,11 +27,13 @@
 {
     width: 41.355%;
     margin: 16.139% 11.096% 50px 47.695%;
+    color: white;
 }
 .csaboutpt2
 {
     width: 41.355%;
     margin: 50px 11.096% 10.447% 47.695%;
+    color: white;
 }
 .modal-body, .modal-body2
 {
@@ -57,10 +60,10 @@
 .bottombox
 {
     position: absolute;
-    height: 1028px;
+    height: 1323px;
     width: 100%;
-    top: 1829px;
-    background-color: #C4C4C4;
+    top: 1452px;
+    background-color: rgba(0, 0, 0, .85);
 }
 .methodology 
 {
@@ -268,7 +271,8 @@
     width: 100%;
 }
 
-#banner8, #bannerUserTesting, #bannerAffinity, #testResults, #userPersona, #featureMatrix, #storyboard, #userFlow
+#banner8, #bannerUserTesting, #bannerAffinity, #testResults, #userPersona, #featureMatrix, #storyboard, #userFlow, 
+#cs3ProtoPersonaINT, #cs3UserPersonaINT, #cs3InterviewsINT, #cs3AffinityINT, #cs3StoryboardINT, #cs3UserFlowINT
 {
     background-color: rgba(0, 0, 0, 0.5) 
 }
@@ -300,56 +304,39 @@
     margin-top: 75px; 
 }
 
-.cs1Screen1
+.row1
 {
-    position: absolute;
-    margin: 209px 1230px auto 60px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 30px;
+    height: 216px;
+    width: 1270px;
+    margin: 209px 60px auto 60px;
 }
 
-.cs1Screen2
+.row2, .row3
 {
-    position: absolute;
-    margin: 209px 1100px auto 190px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 30px;
+    height: 216px;
+    width: 1270px;
+    margin: 50px 60px auto 60px;
 }
 
-.cs1Screen3
+.row4
 {
-    position: absolute;
-    margin: 209px 970px auto 320px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    height: 216px;
+    width: 360px;
+    margin: 50px 60px auto 60px;
 }
 
-.cs1Screen4
+.proto:hover
 {
-    position: absolute;
-    margin: 209px 840px auto 450px;
+    box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px rgba(164, 5, 5, 1);
+    width: 120px;
 }
-.cs1Screen5
-{
-    position: absolute;
-    margin: 209px 710px auto 580px;
-}
-.cs1Screen6
-{
-    position: absolute;
-    margin: 209px 580px auto 710px;
-}
-.cs1Screen7
-{
-    position: absolute;
-    margin: 209px 450px auto 840px;
-}
-.cs1Screen8
-{
-    position: absolute;
-    margin: 209px 320px auto 970px;
-}
-.cs1Screen9
-{
-    position: absolute;
-    margin: 209px 190px auto 1100px;
-}
-.cs1Screen10
-{
-    position: absolute;
-    margin: 209px 60px auto 1230px;
-}
+
