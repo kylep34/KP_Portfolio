@@ -9,21 +9,7 @@ body
     width: 100%;
 }
 
-.navigation /* Modifies the style of the main navigation background */
-    {
-        position: absolute;
-        position: fixed;
-        top: 0;
-        height: 90px;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.4);
-    }   .logo /* Placement for nav logo */
-        {
-            width: 60px;
-            height: 50px;
-            margin-top: 20px;
-            margin-left: 15px;
-        }
+
 
 .aboutMe
     {
@@ -92,7 +78,7 @@ body
         position: absolute;
     }
 
-nav /* Placement for <nav> tag */
+/*nav  Placement for <nav> tag 
 {
     position: absolute; 
     position: fixed;  
@@ -101,7 +87,7 @@ nav /* Placement for <nav> tag */
     max-width: 100%;
     height: 90px;
     z-index:3;
-}   ul /* Placement of the <ul> item */
+}   ul /* Placement of the <ul> item 
     {
         margin-top: 0px;
         width: 100%;
@@ -110,7 +96,7 @@ nav /* Placement for <nav> tag */
         vertical-align: 50%;
         max-height: 90px;
         max-width:100%; 
-    } .inline-block /* Placement & formatting for individual nav items */
+    } .inline-block /* Placement & formatting for individual nav items 
     {
         margin-top: 0px;
         font-family: Arial, Helvetica, sans-serif;
@@ -119,29 +105,29 @@ nav /* Placement for <nav> tag */
         color: white;
         display: inline-block;
         padding: 30px 50px 0px 0px;
-    } .line /* Placement & formatting of the white line under all 4 nav items */
+    } .line /* Placement & formatting of the white line under all 4 nav items 
     {
         position: absolute;
         margin-left:-13px;
         width: 33.542%;
         border: 2px solid white;
-    } .selectorLine /* Placement & formatting of the 'active' nav item indecator */ 
+    } .selectorLine /* Placement & formatting of the 'active' nav item indecator  
     {
         position: absolute;
         border: 2px solid black;
         margin-left: -13px;
         width: 94px;
         z-index: 3;   
-    } 
+    } */
 
-.heroImg /* Placement of the hero image class*/
+/*.heroImg /* Placement of the hero image class
 {
     position: absolute;
     top: 0;
     height: 908px;
     width: 100%;
     z-index: -1;
-}   .stars /* Placement of the hero image image*/ 
+}   .stars /* Placement of the hero image image 
     {
         position: absolute;
         z-index:-1;
@@ -149,7 +135,7 @@ nav /* Placement for <nav> tag */
         height: 908px;
         width: 100%;
     }
-
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 h1,h2,h4,h5,pre /* Formatting of text */
 {
     position: absolute;
@@ -282,7 +268,7 @@ h1,h2,h4,h5,pre /* Formatting of text */
 
 
 
-.footer
+/*.footer
 {
     position: absolute;
     top: 4788px;
@@ -371,6 +357,6 @@ h1,h2,h4,h5,pre /* Formatting of text */
 }
 
 
-
+*/
 
 

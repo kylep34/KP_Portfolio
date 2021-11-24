@@ -1,0 +1,70 @@
+.navigation /* Modifies the style of the main navigation background */
+{
+    position: fixed;
+    top: 0;
+    height: 11.408%;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 3;
+}
+    .logo /* Placement for nav logo */
+    {
+        width: 4.167%;
+        margin-top: 1.389%;
+        margin-left: 1.042%;
+        z-index: 3;
+    }
+
+
+
+ul /* Placement of the <ul> item for the navbar container */
+{
+    position: fixed;
+    margin-top: 0px;
+    width: 32.848%;
+    margin:2.084% auto 2.153% 61.112%; 
+    padding-left: 0px;
+    z-index: 3;
+}     
+        .inline-block /* Placement & formatting for individual nav items */
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.66667vw;
+            color: white;
+            display: inline-block;
+            padding: 0px 10.573% 0px 0px;
+        } 
+            .line /* Placement & formatting of the white line under all 4 nav items */
+            {
+                position: absolute;
+                margin-top: -1.06%;
+                width: 100%;
+                border: 2px solid white;
+            } 
+                .selectorLine /* Placement & formatting of the 'active' nav item indecator */ 
+                {
+                    position: absolute;
+                    margin-top: -1.06%;
+                    border: 2px solid black;
+                    width: 18.605%;
+                    z-index: 3;   
+                } 
+
+
+
+.heroImg /* Placement of the hero image class*/
+{   
+    position: absolute;
+    top: 0;
+    height: 115.083%;
+    width: 100%;
+    max-width: 100%;
+    z-index: -1;
+}   
+    .stars /* Placement of the hero image image*/ 
+    {
+        z-index:-1;
+        height: 100%;
+        width: 100%;
+        max-width: 100%;    
+    }

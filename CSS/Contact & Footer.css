@@ -1,0 +1,97 @@
+#footer
+{
+    position: absolute;
+    top: 600.753%;
+    height: 7.53%;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+}
+
+.footer
+{
+    position: absolute;
+    height: inherit;
+    width: 100%;
+}
+
+
+
+
+#cp2021
+{
+    position: absolute;
+    height: 100%;
+    width: 9.028%;
+    line-height: 333%;
+    font-size: 112.5%;
+    text-align: center;
+    margin: auto 88.75% auto 2.223%;
+    color: white;
+}
+
+#figma
+{
+    position: absolute;
+    height: 21px;
+    width: 122px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.figma
+{
+    position: absolute;
+    top: 0px;
+    height: 30px;
+    width: 144px;
+    margin: 15px 216px 15px 1081px;
+    color: white;
+}
+#figmaLogo
+{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-left: 114px;
+}
+
+.vsCode
+{
+    position: absolute;
+    top: 0px;
+    height: 30px;
+    width: 116px;
+    margin:15px 20px 15px 1304px;
+    color: white;
+}
+#vsCode
+{
+    position: absolute;
+    height: 21px;
+    width: 115.89px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+#vsCodeLogo
+{
+    position: absolute;
+    height: 30px;
+    width: 29.89px;
+    margin-left: 86px;
+}
+
+.footerdivider
+{
+    position: absolute;
+    width: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1235px;
+    border: 1px solid white;
+    transform: rotate(-90deg);
+}
