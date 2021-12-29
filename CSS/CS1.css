@@ -1,26 +1,25 @@
-.modal-dialog 
+/*.modal-dialog 
 {
     max-width: 96.528%;
 }
+*/
 
-
-.cs1full, .cs2full, .cs3full
+/*.cs1full, .cs2full, .cs3full
 {
     height: 2775px;
-}
-.heading 
+}*/
+.cs1heading 
 {
     position: absolute;
-    height: 650px;
+    height: 107.795%;
     width:  100%;
     background-color: rgba(0, 0, 0, 0.85);
-    ;
 }
 .cs1title, .cs2title
 {
-    width: 22.767%;
+    width: 28.603%;
     font-size: 72px;
-    margin: 7.205% 29.684% 2.882% 47.695%;
+    margin: 7.205% 23.704% 2.882% 47.695%;
 }
 
 .csaboutpt1
@@ -35,12 +34,14 @@
     margin: 50px 11.096% 10.447% 47.695%;
     color: white;
 }
+/*
 .modal-body, .modal-body2
 {
     padding: 0px;
     border-top: 2px solid black;
     border-bottom: 2px solid black ;
 }
+*/
 .cshero
 {
     height: 565px;
@@ -48,6 +49,16 @@
     margin: 89px 774px 90px 100px;
     border: 1px solid black;
 }
+
+
+
+
+
+
+
+
+
+
 
 .middlebox
 {

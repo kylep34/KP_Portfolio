@@ -1,0 +1,16 @@
+.modal-dialog 
+{
+    max-width: 96.528%;
+}
+
+.modal-body, .modal-body2
+{
+    padding: 0px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black ;
+}
+
+.cs1full, .cs2full, .cs3full
+{
+    height: 349.938vh;
+}

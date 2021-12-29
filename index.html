@@ -12,10 +12,13 @@
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/Navigation:HeroImg.css">
     <link rel="stylesheet" href="CSS/Contact & Footer.css">
+    <link rel="stylesheet" href="CSS/About Me.css">
     <link rel="stylesheet" href="CSS/Work.css">
     <link rel="stylesheet" href="CSS/CS1.css">
     <link rel="stylesheet" href="CSS/CS2.css">
     <link rel="stylesheet" href="CSS/CS3.css">
+    <link rel="stylesheet" href="CSS/CS Master.css">
+
 </head>
 
 <body>
@@ -30,7 +33,7 @@
 
     <!--Creates nav menu-->
     <nav>
-        <ul>
+        <ul class = "navItems">
             <!--Creates nav items-->
             <li class='inline-block' id='nav1' style="width: 26.217%; padding-left: 2.115%">About</li>
             <li class='inline-block' id='nav2' style="width: 22.2%;">Work</li>
@@ -60,15 +63,18 @@
             <div class='aboutLine'></div>
             <h1 class='aboutHeading'>About</h1>
         </div>
+        <!--Creates the Red box backing box-->
         <div class='aboutRed'>
         </div>
         <!--Creates the about me text-->
-        <pre class='abouttext'>Hello, I am Kyle Petersen, a UX designer with a  passion for digital design and intensive problem
+        <pre class='abouttext'>
+Hello, I am Kyle Petersen, a UX designer with a  passion for digital design and intensive problem
 solving.
 
 Uncovering and solving user centered problems is at the heart of what I do. My background in
 3-dimensional design, engineering, and prototyping offers me unique insights and allows me to
-leverage my strengths towards forward-thinking, user-centric design.</pre>
+leverage my strengths towards forward-thinking, user-centric design.
+    </pre>
     </section>
 
     <!--Creates the class for the skills section-->
@@ -134,18 +140,15 @@ leverage my strengths towards forward-thinking, user-centric design.</pre>
 
     <!--Creates the Work to show case studies-->
     <section class='myWork'>
-        <h1 class='caseStudies'>Case Studies</h1>
-        <!--Creates heading text-->
         <div class='redBox'></div>
-        <!--Creates case study background-->
         <div class='workBox'></div>
-        <div class='underline'></div>
+        <h1 class='caseStudies'>Case Studies</h1>
         <div class='workGrid'>
             <div class='caseStudy' type="button" data-toggle="modal" data-target="#cs1modal">
                 <!--Start case study 1-->
                 <div class='cs1'>
-                    <img class='cs1Overlay' src="../Portfolio/Images/StreamVu.jpg" alt='..'>
-                    <img class='cs1Logo' src='../Portfolio/Images/Case Studies/StreamVu cover.png' alt='..'>
+                    <img class='cs1Overlay' src="Images/StreamVu.jpg" alt='..'>
+                    <img class='cs1Logo' src='Images/Case Studies/StreamVu cover.png' alt='..'>
                 </div>
                 <pre class='cstext1'>
 Case Study 1: StreamVu
@@ -162,8 +165,8 @@ three-person design team in a classroom setting.
             <!--Start case study 2-->
             <div id='caseStudy2' type='button' data-toggle='modal' data-target='#cs2modal'>
                 <div class='cs2'>
-                    <img class='cs2Overlay' src="../Portfolio/Images/Case Studies/Case Studies/NSA 1.png" alt="..">
-                    <img class='cs2Logo' src='../Portfolio/Images/Case Studies/NSA cover.png' alt='..'>
+                    <img class='cs2Overlay' src="Images/Case Studies/Case Studies/NSA 1.png" alt="..">
+                    <img class='cs2Logo' src='Images/Case Studies/NSA cover.png' alt='..'>
                 </div>
                 <pre class='cstext2'>
 Case Study 2: NSA Redesign
@@ -180,7 +183,7 @@ completed by a group of just two designers in a classroom setting.
             <!-- Start case study 3-->
             <div id='caseStudy3' type='button' data-toggle="modal" data-target="#cs3modal">
                 <div class='cs3'>
-                    <img class='cs3Logo' src='../Portfolio/Images/Case Studies/PerfectEdge cover.png' alt='..'>
+                    <img class='cs3Logo' src='Images/Case Studies/PerfectEdge cover.png' alt='..'>
                     <img class='cs3Overlay' src='' alt='..'>
                 </div>
                 <pre class='cstext3'>
@@ -200,19 +203,20 @@ three week period by a single designer.
 
     <section class='contact'>
         <h1 class='contactMe'> Contact me</h1>
-
         <h2 id='contactheader'> You can reach out to me anytime, day or night</h2>
         <div class='card1'>
-            <img id='gmail' src="../Portfolio/Images/Gmail-logo 1.png" alt="..">
+            <img id='gmail' src="Images/Gmail-logo 1.png" alt="..">
             <h6 id='email'>Kylep239@gmail.com</h6>
         </div>
         <div class='card2'>
-            <img id='phone' src="../Portfolio/Images/phoneiconx2.png" alt="..">
+            <img id='phone' src="Images/phoneiconx2.png" alt="..">
             <h6 id='phonenumber'>513-939-6625</h6>
         </div>
         <div class='card3'>
-            <img id='linkedin' src="../Portfolio/Images/linkedin-iconx2.png" alt="..">
-            <h6 id='mylinkedin'>https://www.linkedin.com</h6>
+            <img id='linkedin' src="Images/LinkedInLOGO.png" alt="..">
+            <h6 id = "mylinkedin">
+                <a href = "https://www.linkedin.com/in/kyle-petersen-47a4a7143/" target= "_blank">LinkedIn</a>
+            </h6>    
         </div>
     </section>
 
@@ -221,11 +225,11 @@ three week period by a single designer.
             <h6 id=cp2021> Copyright 2021</h6>
             <div class=figma>
                 <h6 id='figma'> Designed in</h6>
-                <img id='figmaLogo' src="../Portfolio/Images /figma-logox2.png" alt="..">
+                <img id='figmaLogo' src="Images/figma-logox2.png" alt="..">
             </div>
             <div class='vsCode'>
                 <h6 id='vsCode'>Built with</h6>
-                <img id='vsCodeLogo' src="../Portfolio/Images /VSCode-logox2.png" alt="..">
+                <img id='vsCodeLogo' src="Images/VSCode-logox2.png" alt="..">
             </div>
             <div class=footerdivider></div>
         </div>    
@@ -243,7 +247,7 @@ three week period by a single designer.
                 </div>
                 <div class="modal-body">
                     <div class='cs1full'>
-                        <div class='heading'>
+                        <div class='cs1heading'>
                             <h1 class='cs1title'>StreamVu</h1>
                             <h3 class='csaboutpt1'>Stream Vu helps users find their next movie or show by offering a
                                 comprehensive search experience.</h3>

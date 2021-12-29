@@ -1,6 +1,6 @@
 // Definition of variables for functions
 let nav2 = document.querySelector('#nav2');
-let 
+    
 let skillBox = document.querySelector('.skillBox');
 let selectorLine = document.querySelector('.selectorLine');
 

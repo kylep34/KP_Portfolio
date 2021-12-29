@@ -1,97 +1,186 @@
-#footer
+.contact
 {
     position: absolute;
-    top: 600.753%;
-    height: 7.53%;
+    top: 455.233vh;
+    height: 85.752vh;
     width: 100%;
-    bottom: 0;
-    background-color: black;
+    padding: 75px 0 75px 0;
 }
+    .contactMe
+    {
+        color: black;
+        margin: auto 29.167% 0 29.167%;
+        width: 41.667%;
+        font-size: 5vw;
+        text-align: center;
+        border-bottom: 3px solid black;
+    } 
+    #contactheader
+    {
+        width: 69.445%;
+        font-size: 3.3334vw;
+        color: black;
+        padding-top: 5.209%;
+        text-align: center;
+        margin: 6.25% 15.278% auto 15.278%;
+    }        
+    .card1
+    {
+        position: absolute;
+        height: 47.061%;
+        width: 19.792%;
+        margin: 15.556% auto auto 11.945%;
+        padding-top: 8.334%;
+    } 
+        #gmail
+        {
+            position: absolute;
+            width: 52.634%;
+            margin: 5.615% 23.16% auto 23.16%;
+        }
+        #email
+        {
+            margin: 52.635% auto auto auto;
+            width: 100%;
+            font-size: 1.666vw;
+            text-align: center;
+            padding-top: 3.51%;
+        }
+    .card2
+    {
+        position: absolute;
+        margin: 15.556% 31.771% auto 31.771%;
+        height: 47.061%;
+        width: 36.459%;
+        padding: 8.334% 8.334% 0 8.334%;
+    }
+        #phone
+        {
+            position: absolute;
+            width: 28.574%;
+            margin: auto 12.86% auto 12.86%;
+        }
+        #phonenumber
+        {
+            width: 100%;
+            margin: 52.635%  auto auto auto;
+            font-size: 1.666vw;
+            text-align: center;
+            padding-top: 3.51%;
+        }
+    .card3
+    {
+        position: absolute;
+        height: 47.061%;
+        width: 19.792%;
+        padding-top: 8.334%;
+        margin: 15.556% 11.945% auto 68.264%;
+    }
+        #linkedin
+        {
+            position: absolute;
+            width: 52.634%;
+            margin: auto 23.685% auto 23.685%;
+        }
+        #mylinkedin
+        {
+            width: 100%;
+            margin: 52.635% auto auto auto;
+            font-size: 1.666vw;
+            text-align: center;
+            padding-top: 3.51%;
+            z-index: 1;
+        }
 
-.footer
+
+
+.footer /* Makes the footer class the height of the full page */
 {
     position: absolute;
     height: inherit;
     width: 100%;
+    top: 0;
 }
+    #footer /* Placement & formatting of the Footer bar*/
+    {
+        position: absolute;
+        height: 1.2378%;
+        width: 100%;
+        bottom: 0;
+        background-color: black;
+    }
+        #cp2021 /* Formatting & placement of the "Copyright 2021" text */
+        {
+            position: absolute;
+            height: 100%;
+            width: 9.028%;
+            line-height: 333%;
+            font-size: 112.5%;
+            text-align: center;
+            margin: auto 88.75% auto 2.223%;
+            color: white;
+        }
+        .figma /* Formatting & placement of the figma item */  
+        {
+            position: absolute;
+            height: 100%;
+            width: 13.126%;
+            margin: auto auto auto 71.598%;
+        }
+            #figma /* Formatting & placement of "Designed in" figma text */
+            {
+                position: absolute;
+                height: 100%;
+                width: 62. 44%; 
+                padding-right: 10.59%;
+                line-height: 333%;
+                font-size: 112.5%;
+                color: white;
+            }
+            #figmaLogo /* Formatting & plcement of the Figma logo */
+            {
+                position: absolute;
+                height: 50%;
+                width: 50.265%;
+                margin:7.94% auto 7.94% 51.86%;
+                padding-left: 10.59%;
+                padding-right: 23.81%;
+            }
 
+        .vsCode /* Formatting & placement of the vsCode item */
+        {
+            position: absolute;
+            height: 100%;
+            width: 15.487%;
+            margin: auto auto auto 84.514%;
+            color: white;
+        }
+            #vsCode /* Formatting & placement of "Built with" vscode text */
+            {
+                position: absolute;
+                height: 100%;
+                width: 64.13%;
+                line-height: 333%;
+                margin-bottom: 0;
+                font-size: 112.5%;
+                padding-left: 8.975%;
+                padding-right: 20.18%;
+            }
 
-
-
-#cp2021
-{
-    position: absolute;
-    height: 100%;
-    width: 9.028%;
-    line-height: 333%;
-    font-size: 112.5%;
-    text-align: center;
-    margin: auto 88.75% auto 2.223%;
-    color: white;
-}
-
-#figma
-{
-    position: absolute;
-    height: 21px;
-    width: 122px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
-    color: white;
-}
-
-.figma
-{
-    position: absolute;
-    top: 0px;
-    height: 30px;
-    width: 144px;
-    margin: 15px 216px 15px 1081px;
-    color: white;
-}
-#figmaLogo
-{
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    margin-left: 114px;
-}
-
-.vsCode
-{
-    position: absolute;
-    top: 0px;
-    height: 30px;
-    width: 116px;
-    margin:15px 20px 15px 1304px;
-    color: white;
-}
-#vsCode
-{
-    position: absolute;
-    height: 21px;
-    width: 115.89px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
-}
-
-#vsCodeLogo
-{
-    position: absolute;
-    height: 30px;
-    width: 29.89px;
-    margin-left: 86px;
-}
-
-.footerdivider
-{
-    position: absolute;
-    width: 50px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 1235px;
-    border: 1px solid white;
-    transform: rotate(-90deg);
-}
+            #vsCodeLogo /* Formatting & placement of vscode logo */
+            {
+                position: absolute;
+                width: 44.85%;
+                margin: 6.73% auto 6.73% 54.71%;
+                padding-left: 8.97%;
+                padding-right: 22.425%;
+            }
+        .footerdivider /* Formatting & placement of the Divider Line between figma and vs code text */
+        {
+            position: absolute;
+            height: 83.35%;
+            margin-top: 0.348%;
+            margin-bottom: 0.348%;
+            margin-left: 84.514%;
+            border: 1px solid white;
+        }

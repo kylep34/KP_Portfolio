@@ -17,7 +17,7 @@
 
 
 
-ul /* Placement of the <ul> item for the navbar container */
+.navItems /* Placement of the <ul> item for the navbar container */
 {
     position: fixed;
     margin-top: 0px;
