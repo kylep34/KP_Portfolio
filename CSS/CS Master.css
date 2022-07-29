@@ -14,3 +14,50 @@
 {
     height: 349.938vh;
 }
+
+.csaboutpt1
+{
+    width: 41.355%;
+    margin: 12.537% 11.096% 3.603% 47.695%;
+    padding-top: 3.603%;
+    font-size: 3.5309vh;
+    color: white;
+}
+
+.csaboutpt2
+{
+    width: 41.355%;
+    margin: 3.603% 11.096% 7.205% 47.695%;
+    font-size: 3.5309vh;
+    color: white;
+}
+
+.cs1title, .cs2title, .cs3title
+{
+    width: fit-content;
+    margin: 7.205% auto 2.882% 47.695%;
+}
+
+/*#banner8, #bannerUserTesting, #bannerAffinity, #testResults, #userPersona, #featureMatrix, #storyboard, #userFlow, 
+#cs3ProtoPersonaINT, #cs3UserPersonaINT, #cs3InterviewsINT, #cs3AffinityINT, #cs3StoryboardINT, #cs3UserFlowINT
+{
+    height: 92.94vh;
+    background-color: rgba(0, 0, 0, 0.5); 
+}*/
+
+.csbanner
+{ 
+    position: absolute;
+    height: 42.335%;
+    width: 100%;
+    margin-top: 15.31%;
+}
+
+.figmaProto, .figmaBoard
+{
+    width: 16.355%;
+    height: 2.419%;
+    font-size: 1.38889vw;
+    text-indent: 15px;
+    margin: 0px 83.79% 0px 0px;
+}

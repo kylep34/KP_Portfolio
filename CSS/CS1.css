@@ -11,29 +11,29 @@
 .cs1heading 
 {
     position: absolute;
-    height: 107.795%;
+    height: 76.797vh    ;
     width:  100%;
     background-color: rgba(0, 0, 0, 0.85);
 }
-.cs1title, .cs2title
+/*.cs1title, .cs2title
 {
     width: 28.603%;
     font-size: 72px;
     margin: 7.205% 23.704% 2.882% 47.695%;
-}
+}*/
 
-.csaboutpt1
+/*.csaboutpt1
 {
     width: 41.355%;
     margin: 16.139% 11.096% 50px 47.695%;
     color: white;
-}
-.csaboutpt2
+}*/
+/*.csaboutpt2
 {
     width: 41.355%;
     margin: 50px 11.096% 10.447% 47.695%;
     color: white;
-}
+}*/
 /*
 .modal-body, .modal-body2
 {
@@ -60,107 +60,115 @@
 
 
 
-.middlebox
+.middlebox /* Placement & sizing of the middle "Methodology" box within Case Study 1 */
 {
     position: absolute;
-    height: 802px;
+    height: 102.902vh;
     width: 100%;
-    margin: 650px auto 1323px auto; 
+    margin-top: 76.797vh;
+    /* margin: 43.877% auto auto auto; */
 }
+        .methodology /* Placement for the "Methodology" heading */
+        {
+            /*height: 84px;*/
+            width: 100%;
+            text-decoration: underline;
+            text-align: center;
+            margin-top: 5.404%;
+            /*  margin: 75px 409.5px 901px 409.5px;*/
+            color: black;
+        }
+        .methodinfo /* Placement of the "Methodology Information" for Case Study 1 */
+        {
+            width: 460px;
+            margin: 11.672% 10.087% auto 56.917%;
+            padding-top: 3.603%; 
+        }
+                .cs1UserFlow /* Placement & sizing of the CS1 User Flow image */
+                {
+                    position: absolute;
+                    top: 0;
+                    width: 21.614%;
+                    height: 22.183%;
+                    margin: 38.545% 64.338% 7.205% 14.05%;
+                    border: 1px black solid;  
+                }
+                .cs1Storyboard /* Placement & sizing of the CS1 Storyboard */
+                {
+                    position: absolute;
+                    top: 0;
+                    width: 21.614%;
+                    height: 22.183%;
+                    margin: 32.421% 51.73% auto 26.802%;
+                    border: 1px black solid;  
+                }
+                .cs1FeatureMatrix /* Placement & sizing of the CS1 Feature Prioitization Matrix */
+                {
+                    position: absolute;
+                    top: 0;
+                    width: 21.614%;
+                    height: 22.183%;
+                    margin: 29.9% 74.928% auto 3.603%;
+                    border: 1px black solid;  
+                }
+                .cs1UserPersona /* Placement & sizing of the CS1 User Persona */
+                {                   
+                    position: absolute;
+                    top: 0;
+                    width: 21.614%;
+                    height: 22.183%;
+                    margin: 25.433% 69.741% auto 8.646%;
+                    border: 1px black solid;  
+                }
+                .cs1TestResults /* Placement & sizing of the CS1 User Test Results */
+                {
+                    position: absolute;
+                    top: 0;
+                    width: 21.614%;
+                    height: 22.183%;
+                    margin: 15.49% 48.127% auto 30.26%;
+                    border: 1px black solid;  
+                }
+                .cs1Affinity /* Placement & sizing of the CS1 Affinity Diagram */
+                {
+                    position: absolute;
+                    top: 0;
+                    width: 21.614%;
+                    height: 22.183%;
+                    margin: 19.021% 60.88% auto 17.508%;
+                    border: 1px black solid;  
+                }
+                .cs1UserTesting /* Placement & sizing of the CS1 User Interview Results */
+                {
+                    position: absolute;
+                    top: 0;
+                    width: 21.614%;
+                    height: 22.183%;
+                    margin: 26.225% 49.424% auto 28.963%;
+                    border: 1px black solid;  
+                }
+                .cs1ProtoPersona /* Placement & sizing of the CS1 Proto Persona */
+                {
+                    position: absolute;
+                    top: 0;
+                    width: 21.614%;
+                    height: 22.183%;
+                    margin: 15.49% 74.784% auto 3.603%;  
+                    border: 1px black solid;  
+                }
+                .cs1ProtoPersona:hover, .cs1UserTesting:hover, .cs1Affinity:hover, 
+                .cs1TestResults:hover, .cs1FeatureMatrix:hover, .cs1Storyboard:hover, 
+                .cs1UserPersona:hover, .cs1UserFlow:hover /* Creates a hover effect for all CS1 Methodology documentation */  
+                {   
+                    box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px rgba(164, 5, 5, 1);
+                    z-index:1;
+                    width: 25.217%;
+                    opacity: 0.9;
+                }
 
-.bottombox
-{
-    position: absolute;
-    height: 1323px;
-    width: 100%;
-    top: 1452px;
-    background-color: rgba(0, 0, 0, .85);
-}
-.methodology 
-{
-    height: 84px;
-    width: 421px;
-    text-decoration: underline;
-    text-align: center;
-    margin: 75px 409.5px 901px 409.5px;
-    color: black;
-}
-.methodinfo
-{
-    width: 460px;
-    margin: 199px 140px 15px 790px; 
-}
 
-.cs1ProtoPersona
-{
-    position: absolute;
-    top: 0;
-    width: 300px;
-    margin: 209px 1040px auto 50px;    
-}
 
-.cs1UserTesting
-{
-    position: absolute;
-    top: 0;
-    width: 300px;
-    margin: 364px 688px auto 402px;
-}
 
-.cs1Affinity
-{
-    position: absolute;
-    top: 0;
-    width: 300px;
-    margin: 264px 847px auto 243px;
-}
-
-.cs1TestResults
-{
-    position: absolute;
-    top: 0;
-    width: 300px;
-    margin: 215px 670px auto 420px;
-}
-
-.cs1FeatureMatrix
-{
-    position: absolute;
-    top: 0;
-    width: 300px;
-    margin: 415px 1040px auto 50px;
-}
-
-.cs1Storyboard
-{
-    position: absolute;
-    top: 0;
-    width: 300px;
-    margin: 450px 718px auto 372px;
-}
-
-.cs1UserFlow
-{
-    position: absolute;
-    top: 0;
-    width: 300px;
-    margin: 535px 956px auto 134px;
-}
-
-.cs1UserPersona
-{
-    position: absolute;
-    top: 0;
-    width: 300px;
-    margin: 353px 970px auto 120px;
-}
-.cs1ProtoPersona:hover, .cs1UserTesting:hover, .cs1Affinity:hover, .cs1TestResults:hover, .cs1FeatureMatrix:hover, .cs1Storyboard:hover, .cs1UserPersona:hover, .cs1UserFlow:hover  
-{
-    box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px rgba(164, 5, 5, 1);
-    z-index:1;
-    width: 350px;
-    opacity: 0.9;
-}
 
 #banner6
 {
@@ -170,11 +178,18 @@
 
 #cs1ProtoPersona, #cs1Testing, #cs1Affinity, #cs1TestResults, #cs1UserPersona, #cs1FeatureMatrix, #cs1storyboard, #cs1UserFlow
 {
-    width: 600px;
-    margin: -5px auto -5px 10px ;
     position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 1px black solid;
 }
+
 #cs1Testing
+{
+    border: 0px;
+}
+/*#cs1Testing
 {
     margin: -36px auto -36px 10px;
 }
@@ -200,13 +215,13 @@
 #cs1storyboard
 {
     margin: -49px auto -49px 10px;
-    height:410px
-}
+    height: 362px;
+}*/
 
 #cs1ProtoPersona:hover, #cs1Testing:hover, #cs1Affinity:hover, #cs1TestResults:hover, #cs1UserPersona:hover, #cs1FeatureMatrix:hover, #cs1storyboard:hover, #cs1UserFlow:hover
 {
     box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px rgba(164, 5, 5, 1);
-    width: 650px;
+    width: 108.334%;
     z-index: 1;
 }
 #cs1storyboard:hover
@@ -218,6 +233,7 @@
 {
     position: absolute;
     width: 100%;
+    height: 100%;
 }
 .modal-dialog3
 {
@@ -241,11 +257,12 @@
 {
     position: absolute;
     width: max-content;
-    height: 49px;
+    height: 16.03%;
     text-decoration: underline;
-    font-size: 42px;
+    font-size: 5.2964vh;
     color: white;
-    margin: 15px 492px 248px 630px;
+    margin: 1.081% auto 17.796% 43.949%;
+    padding-left: 1.441%;
 }
 
 
@@ -253,12 +270,11 @@
 #cs1Prototxt, #cs1Testtxt, #cs1Affinitytxt, #cs1Testingtxt, #cs1UserPersonatxt, #cs1FeatureMatrixtxt, #cs1Storytxt, #cs1UserFlowtxt
 {
     position: absolute;
-    width: 468px;
-    line-height: 31px;
-    font-size: 28px;
-    max-height: 180px;
+    width: 35.087%;
+    line-height: 3.9092vh;
+    font-size: 3.5309vh;
     color: white;
-    margin: 89px 262px auto 660px; 
+    margin: 6.413% 17.364% auto 47.551%; 
 }
 
 .modal-body2
@@ -282,14 +298,15 @@
     width: 100%;
 }
 
-#banner8, #bannerUserTesting, #bannerAffinity, #testResults, #userPersona, #featureMatrix, #storyboard, #userFlow, 
+/*#banner8, #bannerUserTesting, #bannerAffinity, #testResults, #userPersona, #featureMatrix, #storyboard, #userFlow, 
 #cs3ProtoPersonaINT, #cs3UserPersonaINT, #cs3InterviewsINT, #cs3AffinityINT, #cs3StoryboardINT, #cs3UserFlowINT
 {
-    background-color: rgba(0, 0, 0, 0.5) 
-}
+    height: 92.94vh;
+    background-color: rgba(0, 0, 0, 0.5); 
+}*/
 .modal-bodyINT2
 {
-    height: 450px;
+    height: 92.94vh;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -303,16 +320,24 @@
 
 #INT2
 {
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, 0);
 }
 
+.bottombox
+{
+    position: absolute;
+    height: 1323px;
+    width: 100%;
+    top: 1426px;
+    background-color: rgba(0, 0, 0, .85);
+}
 .wireframes
 {
     position: absolute;
     text-decoration: underline;
     width: 100%;
     text-align: center;
-    margin-top: 75px; 
+    margin-top: 5.404%; 
 }
 
 .row1
@@ -351,3 +376,10 @@
     width: 120px;
 }
 
+.cs1IMGcontainer
+{
+    position: absolute;
+    width: 43.228%;
+    height: 116.03%;
+    margin: -1.802% auto -1.802% 0.721% ;
+}

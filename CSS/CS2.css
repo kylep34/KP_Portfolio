@@ -1,9 +1,9 @@
 .cs2heading
 {
     position: absolute;
-    height: 716px;
+    height: 112.272%;
     width:  100%;
-    background-color: #C4C4C4;
+    background-color: rgba(0, 0, 0, 0.85);;
 }
 
 .cs2middlebox
@@ -166,14 +166,6 @@ a:visited
 }
 
 
-.figmaProto, .figmaBoard
-{
-    width: 227px;
-    height: 32px;
-    font-size: 20px;
-    text-indent: 15px;
-    margin: 0px 1163px 0px 0px;
-}
 
 
 .cs2row1

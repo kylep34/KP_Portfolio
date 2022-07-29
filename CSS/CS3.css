@@ -2,16 +2,16 @@
 .heading3
 {
     position: absolute;
-    height: 638px;
+    height: 106.634%;
     width:  100%;
-    background-color: #C4C4C4;
+    background-color: rgba(0, 0, 0, 0.85);;
 }
 
-.cs3title
+/*.cs3title
 {
     width: 28.603%;
     margin: 7.205% 24.208% 40px 47.695%;
-}
+}*/
 
 .cs3bottombox
 {
@@ -83,13 +83,13 @@
     opacity: 0.9;
 }
 
-.csbanner
+/*.csbanner
 { 
     position: absolute;
     height: 312px;
     width: 100%;
-    margin-top: 3.891%
-}
+    margin-top: 15.31%;
+}*/
 
 #cs3ProtoPersona, #cs3UserPersona, #cs3Interviews, #cs3Affinity, #cs3Storyboard, #cs3UserFlow
 {
