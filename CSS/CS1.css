@@ -11,7 +11,7 @@
 .cs1heading 
 {
     position: absolute;
-    height: 76.797vh    ;
+    height: 41.181vw;
     width:  100%;
     background-color: rgba(0, 0, 0, 0.85);
 }
@@ -44,10 +44,9 @@
 */
 .cshero
 {
-    height: 565px;
-    width:366px;
-    margin: 89px 774px 90px 100px;
-    border: 1px solid black;
+    position: absolute;
+    height: 41.667vw;
+    margin: 2.882% 0 0 18.444%;
 }
 
 
