@@ -1,13 +1,3 @@
-/*.modal-dialog 
-{
-    max-width: 96.528%;
-}
-*/
-
-/*.cs1full, .cs2full, .cs3full
-{
-    height: 2775px;
-}*/
 .cs1heading 
 {
     position: absolute;
@@ -15,33 +5,7 @@
     width:  100%;
     background-color: rgba(0, 0, 0, 0.85);
 }
-/*.cs1title, .cs2title
-{
-    width: 28.603%;
-    font-size: 72px;
-    margin: 7.205% 23.704% 2.882% 47.695%;
-}*/
 
-/*.csaboutpt1
-{
-    width: 41.355%;
-    margin: 16.139% 11.096% 50px 47.695%;
-    color: white;
-}*/
-/*.csaboutpt2
-{
-    width: 41.355%;
-    margin: 50px 11.096% 10.447% 47.695%;
-    color: white;
-}*/
-/*
-.modal-body, .modal-body2
-{
-    padding: 0px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black ;
-}
-*/
 .cshero
 {
     position: absolute;
@@ -49,37 +13,25 @@
     margin: 2.882% 0 0 18.444%;
 }
 
-
-
-
-
-
-
-
-
-
-
 .middlebox /* Placement & sizing of the middle "Methodology" box within Case Study 1 */
 {
     position: absolute;
-    height: 102.902vh;
+    height: 56.876vw;
     width: 100%;
-    margin-top: 76.797vh;
+    margin-top: 42.724%;
     /* margin: 43.877% auto auto auto; */
 }
         .methodology /* Placement for the "Methodology" heading */
         {
-            /*height: 84px;*/
             width: 100%;
             text-decoration: underline;
             text-align: center;
             margin-top: 5.404%;
-            /*  margin: 75px 409.5px 901px 409.5px;*/
             color: black;
         }
         .methodinfo /* Placement of the "Methodology Information" for Case Study 1 */
         {
-            width: 460px;
+            width: 31.945vw;
             margin: 11.672% 10.087% auto 56.917%;
             padding-top: 3.603%; 
         }
@@ -88,9 +40,7 @@
                     position: absolute;
                     top: 0;
                     width: 21.614%;
-                    height: 22.183%;
-                    margin: 38.545% 64.338% 7.205% 14.05%;
-                    border: 1px black solid;  
+                    margin: 38.545% 64.338% 7.205% 14.05%;  
                 }
                 .cs1Storyboard /* Placement & sizing of the CS1 Storyboard */
                 {
@@ -98,62 +48,49 @@
                     top: 0;
                     width: 21.614%;
                     height: 22.183%;
-                    margin: 32.421% 51.73% auto 26.802%;
-                    border: 1px black solid;  
+                    margin: 32.421% 51.73% auto 26.802%;  
                 }
                 .cs1FeatureMatrix /* Placement & sizing of the CS1 Feature Prioitization Matrix */
                 {
                     position: absolute;
                     top: 0;
                     width: 21.614%;
-                    height: 22.183%;
-                    margin: 29.9% 74.928% auto 3.603%;
-                    border: 1px black solid;  
+                    margin: 29.9% 74.928% auto 3.603%;  
                 }
                 .cs1UserPersona /* Placement & sizing of the CS1 User Persona */
                 {                   
                     position: absolute;
                     top: 0;
                     width: 21.614%;
-                    height: 22.183%;
                     margin: 25.433% 69.741% auto 8.646%;
-                    border: 1px black solid;  
                 }
                 .cs1TestResults /* Placement & sizing of the CS1 User Test Results */
                 {
                     position: absolute;
                     top: 0;
                     width: 21.614%;
-                    height: 22.183%;
                     margin: 15.49% 48.127% auto 30.26%;
-                    border: 1px black solid;  
                 }
                 .cs1Affinity /* Placement & sizing of the CS1 Affinity Diagram */
                 {
                     position: absolute;
                     top: 0;
                     width: 21.614%;
-                    height: 22.183%;
-                    margin: 19.021% 60.88% auto 17.508%;
-                    border: 1px black solid;  
+                    margin: 19.021% 60.88% auto 17.508%; 
                 }
                 .cs1UserTesting /* Placement & sizing of the CS1 User Interview Results */
                 {
                     position: absolute;
                     top: 0;
                     width: 21.614%;
-                    height: 22.183%;
-                    margin: 26.225% 49.424% auto 28.963%;
-                    border: 1px black solid;  
+                    margin: 26.225% 49.424% auto 28.963%;  
                 }
                 .cs1ProtoPersona /* Placement & sizing of the CS1 Proto Persona */
                 {
                     position: absolute;
                     top: 0;
                     width: 21.614%;
-                    height: 22.183%;
-                    margin: 15.49% 74.784% auto 3.603%;  
-                    border: 1px black solid;  
+                    margin: 15.49% 74.784% auto 3.603%;    
                 }
                 .cs1ProtoPersona:hover, .cs1UserTesting:hover, .cs1Affinity:hover, 
                 .cs1TestResults:hover, .cs1FeatureMatrix:hover, .cs1Storyboard:hover, 
@@ -179,53 +116,12 @@
 {
     position: absolute;
     width: 100%;
-    height: 100%;
-    overflow: hidden;
-    border: 1px black solid;
 }
-
-#cs1Testing
-{
-    border: 0px;
-}
-/*#cs1Testing
-{
-    margin: -36px auto -36px 10px;
-}
-#cs1Affinity
-{
-    margin: -19px auto -19px 10px;
-}
-
-#cs1TestResults
-{
-    margin: -20px auto -20px 10px;
-}
-
-#cs1UserPersona
-{
-    margin: -25px auto -25px 10px;
-}
-
-#cs1FeatureMatrix
-{
-    margin: -49px auto -49px 10px;
-}
-#cs1storyboard
-{
-    margin: -49px auto -49px 10px;
-    height: 362px;
-}*/
 
 #cs1ProtoPersona:hover, #cs1Testing:hover, #cs1Affinity:hover, #cs1TestResults:hover, #cs1UserPersona:hover, #cs1FeatureMatrix:hover, #cs1storyboard:hover, #cs1UserFlow:hover
 {
     box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px rgba(164, 5, 5, 1);
-    width: 108.334%;
     z-index: 1;
-}
-#cs1storyboard:hover
-{
-    height: 444px;
 }
 
 #banner5
@@ -258,10 +154,10 @@
     width: max-content;
     height: 16.03%;
     text-decoration: underline;
-    font-size: 5.2964vh;
+    font-size: 2.91667vw;
     color: white;
-    margin: 1.081% auto 17.796% 43.949%;
-    padding-left: 1.441%;
+    margin: 1.08% auto auto 43.949%;
+    padding-left: 1.439%;
 }
 
 
@@ -271,7 +167,7 @@
     position: absolute;
     width: 35.087%;
     line-height: 3.9092vh;
-    font-size: 3.5309vh;
+    font-size: 1.944441vw;
     color: white;
     margin: 6.413% 17.364% auto 47.551%; 
 }
@@ -297,15 +193,9 @@
     width: 100%;
 }
 
-/*#banner8, #bannerUserTesting, #bannerAffinity, #testResults, #userPersona, #featureMatrix, #storyboard, #userFlow, 
-#cs3ProtoPersonaINT, #cs3UserPersonaINT, #cs3InterviewsINT, #cs3AffinityINT, #cs3StoryboardINT, #cs3UserFlowINT
-{
-    height: 92.94vh;
-    background-color: rgba(0, 0, 0, 0.5); 
-}*/
 .modal-bodyINT2
 {
-    height: 92.94vh;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -319,54 +209,53 @@
 
 #INT2
 {
+    height: 100%;
+    border: 0px;
     background-color: rgba(0, 0, 0, 0);
 }
 
 .bottombox
 {
     position: absolute;
-    height: 1323px;
+    height: 167.428vh;
     width: 100%;
-    top: 1426px;
+    top: 98.0554vw;
     background-color: rgba(0, 0, 0, .85);
 }
 .wireframes
 {
-    position: absolute;
     text-decoration: underline;
     width: 100%;
     text-align: center;
     margin-top: 5.404%; 
+    padding-bottom: 4.323%;
 }
 
 .row1
 {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
-    grid-gap: 30px;
-    height: 216px;
-    width: 1270px;
-    margin: 209px 60px auto 60px;
+    grid-template-columns: 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw;
+    grid-gap: 2.08333vw;
+    height: 15.141%;
+    margin: 12.465% 4.251% auto 4.251%
 }
 
 .row2, .row3
 {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
-    grid-gap: 30px;
-    height: 216px;
-    width: 1270px;
-    margin: 50px 60px auto 60px;
+    grid-template-columns: 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw;
+    grid-gap: 2.08333vw;
+    height: 25.35vh;
+    margin: 5.404% 4.251% auto 4.251%;
 }
 
 .row4
 {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 30px;
-    height: 216px;
-    width: 360px;
-    margin: 50px 60px auto 60px;
+    grid-template-columns: 6.945vw 6.945vw 6.945vw 6.945vw;
+    grid-gap: 2.08333vw;
+    height: 25.35vh;
+    margin: 5.404% 32.349% auto 32.349%;
 }
 
 .proto:hover
@@ -378,7 +267,30 @@
 .cs1IMGcontainer
 {
     position: absolute;
-    width: 43.228%;
+    width: 43.166%;
     height: 116.03%;
-    margin: -1.802% auto -1.802% 0.721% ;
+    margin: -1.799% auto -1.799% 0.72% ;
+}
+
+.cs1IMGcontainer:hover
+{
+    box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px rgba(164, 5, 5, 1);
+    width: 46.763%;
+    height: 125.643%;
+    z-index: 1;
+    margin: -2.878% 0 -2.878% 0.72%;
+}
+
+.cs1Screens
+{
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 2/1;  
+}
+
+#cs1lofi
+{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }

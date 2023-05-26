@@ -1,55 +1,48 @@
- 
-
-
-
-
-
-
 .myWork
 {
     position: absolute;
-    height: 188.022vh;
+    height: 188.213vh;
     width: 100%;
-    top: 276.797vh;
-    padding: 75px 0 75px 0;
-}
-.workBox
-{
-    position: absolute;
-    height: 166.583vh;
-    width: 100%;
-    /*top:0; */
-    margin: 10px auto 10px auto;
-    background: rgba(0, 0, 0, 0.85);
+    top: 276.933vh;
+    padding: 9.5057vh 0 9.5057vh 0;
 }
 .redBox /* Placement of the "Case Study" section background */
 {
     position: absolute; 
-    height: 89.94%;
+    height: 169.203vh;
     width: 100%; 
-    top: 75px;
+    top: 9.5057vh;
     background: rgba(164, 5, 5, 1);
     z-index:-1;
 }
+.workBox
+{
+    position: absolute;
+    height: 166.668vh;
+    width: 100%;
+    margin: 1.2674vh auto 1.2674vh auto;
+    background: rgba(0, 0, 0, 0.85);
+}
+
 
 .caseStudies /* Placement of the text 'Case Studies' and the underline*/
 {
-    height: 8.518%;
     width: 85.973%;
     color: white;
     top: 75px;
     margin: 0.695% 62.709% auto 8.334%;
     padding-top: 3.473%;
+    line-height: 9.12548vh;
     border-bottom: 2px solid white;
 }
 
 .caseStudy,#caseStudy2,#caseStudy3 /* Placement and formatting of the individual case study tiles */
 {
     position: absolute;
-    top: 14.085%; 
-    height: 15.561%;
+    top: 26.616vh; 
+    height: 29.405vh;
     width: 83.612%;
-    margin: 75px 9.584% auto 6.806%;
+    margin: 9.5057vh 9.584% auto 6.806%;
     background: rgba(229, 229, 229, 1); 
     border: 1px solid rgba(0, 0, 0, .6); 
     z-index: 1;  
@@ -62,9 +55,9 @@
 .cs1,.cs2,.cs3 /* Placement of the pictures for each case study */
 {
     position: absolute;
-    height: 122.269%; 
+    height: 35.488vh; 
     width: 32.28%;
-    margin:10px auto -5.408% 15px;
+    margin: 1.2674vh auto -5.408% 1.04165vw;
     z-index: 2;
     
 }
@@ -72,7 +65,7 @@
 {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .cs1Overlay,.cs2Overlay,.cs3Overlay
@@ -81,6 +74,7 @@
     bottom: 0;
     left: 0;
     right: 0;
+    opacity: 0;
     width:100%;
     height: 0;
     transition: .5s ease;
@@ -89,6 +83,7 @@
 .cs1:hover .cs1Overlay, .cs2:hover .cs2Overlay, .cs3:hover .cs3Overlay
 {
     height: 100%;
+    opacity: 100%;
 }
 
 
@@ -97,13 +92,11 @@ pre /* Formatting of the case study text*/
 {
     position: relative;
     color: black;
-    font-size: 3.0265vh;
+    font-size: 3.04183vh;
     line-height: 100%;
-    height: 86.96%;
-    width: auto;    
     overflow: hidden;
     margin: 0.833% auto auto 33.445%;
-    padding-left: 25px;
+    padding-left: 1.7361vw;
 }
 
 #caseStudy2 /* Placement of the text for the second case study */

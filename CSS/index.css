@@ -7,6 +7,7 @@ body
 {
     height: 547.669vh;
     width: 100%;
+    overflow-x: hidden;
 }
 
     
@@ -19,7 +20,7 @@ h1,h2,h4,h5,pre /* Formatting of text */
 }   h1, h4 /* Formatting and placement of text used for intro heading */
     {
         margin-top:23.75%;
-        font-size: 5vw;
+        font-size: 9.12548vh;
         font-weight: 500; 
     } h2 /* Formatting and placement of text used with <h2> tag */
     {

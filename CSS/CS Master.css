@@ -2,6 +2,10 @@
 {
     max-width: 96.528%;
 }
+.modal
+{
+    padding-right: 0px !important;
+}
 
 .modal-body, .modal-body2
 {
@@ -12,7 +16,7 @@
 
 .cs1full, .cs2full, .cs3full
 {
-    height: 349.938vh;
+    height: 343.093vh;
 }
 
 .csaboutpt1
@@ -48,16 +52,57 @@
 .csbanner
 { 
     position: absolute;
-    height: 42.335%;
+    height: 42.565%;
     width: 100%;
-    margin-top: 15.31%;
+    margin-top: 15.144%;
 }
 
 .figmaProto, .figmaBoard
 {
-    width: 16.355%;
-    height: 2.419%;
+    width: fit-content;
     font-size: 1.38889vw;
-    text-indent: 15px;
-    margin: 0px 83.79% 0px 0px;
+    margin: 0px 0px 0px 1.081%;
+}
+
+.active
+{
+    height: 100%;
+}
+
+.csIMGdownload
+{
+    position: absolute;
+    right: 0;
+    height: 2.778vw;
+    bottom: 2.055%;
+    z-index: 2;
+}
+
+#csBannerHead
+{
+    position: absolute;
+    width: max-content;
+    height: 16.03%;
+    text-decoration: underline;
+    font-size: 2.91667vw;
+    color: white;
+    margin: 1.08% auto auto 43.949%;
+    padding-left: 1.439%;
+}
+
+#csBannertxt
+{
+    position: absolute;
+    width: 35.087%;
+    line-height: 3.9092vh;
+    font-size: 1.944441vw;
+    color: white;
+    margin: 6.413% 17.364% auto 47.551%; 
+}
+
+.carousel-caption
+{
+    padding: 1.2674vh;
+    font-size: 1.66667vw;
+    line-height: 3.04183vh;
 }

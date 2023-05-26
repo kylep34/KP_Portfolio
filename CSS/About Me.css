@@ -9,9 +9,9 @@
         .aboutMebox /* Placement & formatting of the black "About" box */
         {
             position: relative;
-            height: 52.917%;
-            width: 87.362%;
-            margin: 0px 2.084% auto auto;
+            height: 32.321vh;
+            width: 87.362vw;
+            margin: auto 2.0833vw auto 10.55553vw;
             background-color: rgba(0, 0, 0, .85);
             z-index: 2;
         }
@@ -27,16 +27,16 @@
                     position: absolute;
                     font-size: 5vw;
                     top: 0;
-                    margin: 11.765% auto 1.59% 1.59%;
+                    margin: 18.7579vh auto 2.5348vh 1.3889vw;
                     z-index: 1;                   
                 } 
         .aboutRed /* Placement & formatting of the red unerbox */
         {
             position: absolute;
-            height: 45.767%;
-            width: 87.362%;
-            top:10px;
-            margin: auto 2.778% auto 9.862%;
+            height: 32.32vh;
+            width: 87.362vw;
+            top:1.2674vh;
+            margin: auto 2.7778vw auto 9.8611vw;
             background-color: #a40505;
             z-index: 1;
         }
@@ -57,14 +57,14 @@
     top: 153.846vh;
     height: 132.41vh;
     width: 100%;
-    padding: 75px 0 75px 0;
+    padding: 9.5057vh 0 9.5057vh 0;
 }
         .skillBox /* Creates and places the black "Skill" dividing box */
         {
             position: relative;
-            height: 28.223%;
-            width: 87.362%;
-            margin:  auto 2.084% auto 10.556%;
+            height: 32.321vh;
+            width: 87.362vw;
+            margin:  auto 2.0833vw auto 10.55553vw;
             background-color:rgba(0, 0, 0, .85);
             z-index: 2;
         }
@@ -73,27 +73,27 @@
                     color: rgba(0, 0, 0, 0.35);
                     font-weight: 400;
                     font-size: 10vw;
-                    margin: 8.51% 12.64% auto 72.73%;
+                    margin: 13.308vh auto auto 63.5417vw;
                     color: rgba(240, 191, 16, 0.5);
                 }        
                 .skillsIntro /* Placement of the text for the "Skills" section heading*/
                 {
-                    margin:11.93% 2.47% 20px 20px;
+                    margin: 18.7579vh auto 2.5348vh 1.3889vw;
                     color: white;
                 }
                 h4 /* Placement of the text 'Skills'*/ 
                 {
-                    margin: 11.93% 2.47% auto 86.2%;
+                    margin: 18.7579vh auto 2.5348vh 75.347vw;
                     color: white;
                 }
         .skillsRed
         {
-            top: 75px; 
+            top: 9.5057vh; 
             position: absolute;
-            height: 24.191%;
-            width: 87.362%;
+            height: 32.32vh;
+            width: 87.362vw;
             background-color: #a40505;
-            margin: 10px 2.778% auto 9.862%;
+            margin: 1.2674vh auto auto 9.8611vw;
         }
         .flexContainer
         {

@@ -2,7 +2,7 @@
 .heading3
 {
     position: absolute;
-    height: 106.634%;
+    height: 81.497vh;
     width:  100%;
     background-color: rgba(0, 0, 0, 0.85);;
 }
@@ -16,70 +16,65 @@
 .cs3bottombox
 {
     position: absolute;
-    height: 1315px;
+    height: 233.725%;
     width: 100%;
-    top: 1452px;
+    top: 222.705%;
     background-color: rgba(0, 0, 0, .85);
 }
 
 .cs3ProtoPersona
 {
     position: absolute;
-    width: 300px;
+    width: 21.614%;
     top: 0;
-    margin: 133px 1040px auto 50px;
-    border: 1px solid black;
+    margin: 15.274% 74.928% auto 3.459%;
 }
 
 .cs3UserPersona
 {
     position: absolute;
-    width: 300px;
+    width: 21.614%;
     top: 0;
-    margin: 139px 744px auto 346px;
-    border: 1px solid black;
+    margin: 15.7064% 53.603% auto 24.784%;
 }
 
 .cs3Interviews
 {
     position: absolute;
-    width: 300px;
+    width: 21.614%;
     top: 0;
-    margin: 267px 1001px auto 69px;
-    border: 1px solid black;
+    margin: 23.4875% 72.119% auto 6.2685%;
 }
 
 .cs3Affinity
 {
     position: absolute;
-    width: 300px;
+    width: 21.614%;
     top: 0;
-    margin: 281px 768px auto 322px;
-    border: 1px solid black;
+    margin: 23.055% 54.251% auto 24.136%;
 }
+
 .cs3StoryBoard
 {
     position: absolute;
-    width: 300px;
+    width: 21.614%;
     top: 0;
-    margin: 407px 1040px auto 50px;
-    border: 1px solid black;
+    margin: 29.323% 74.928% auto 3.459%;
 }
 
 .cs3UserFlow
 {
     position: absolute;
-    width: 300px;
+    width: 21.614%;
     top: 0;
-    margin: 437px 778px auto 312px;
-    border: 1px solid black;
+    margin: 33.286% 53.963% auto 24.424%;
 }
 
 .cs3ProtoPersona:hover, .cs3UserPersona:hover, .cs3Interviews:hover, .cs3Affinity:hover, .cs3StoryBoard:hover, .cs3UserFlow:hover
 {
     box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px rgba(164, 5, 5, 1);
     z-index:1;
-    width: 350px;
+    width: 25.217%;
     opacity: 0.9;
 }
 
@@ -93,30 +88,13 @@
 
 #cs3ProtoPersona, #cs3UserPersona, #cs3Interviews, #cs3Affinity, #cs3Storyboard, #cs3UserFlow
 {
-    width: 600px;
-    margin: -10px auto -10px 10px ;
+    width: 100%;
     position: absolute;
-}
-
-#cs3UserPersona
-{
-    margin: -26px auto -26px 10px;
-}
-
-#cs3Interviews
-{
-    margin: -18px auto -18px 10px;
-}
-
-#cs3Affinity
-{
-    margin: -34px auto -34px 10px;
 }
 
 #cs3ProtoPersona:hover, #cs3UserPersona:hover, #cs3Interviews:hover, #cs3Affinity:hover, #cs3Storyboard:hover, #cs3UserFlow:hover
 {
     box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px rgba(164, 5, 5, 1);
-    width: 650px;
     z-index: 1;
 }
 
@@ -134,39 +112,38 @@
 .cs3row1
 {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
-    grid-gap: 30px;
-    height: 280px;
-    width: 1270px;
-    margin: 205px 60px auto 60px;
+    grid-template-columns: 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw;
+    grid-gap: 2.08333vw;
+    height: fit-content;
+    width: fit-content;
+    margin: 3.603% 4.323% auto 4.323%;
 }
 
 .cs3row2
 {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
-    grid-gap: 30px;
-    height: 216px;
-    width: 1270px;
-    margin: 120px 60px auto 60px;
+    grid-template-columns: 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw;
+    grid-gap: 2.08333vw;
+    height: fit-content;
+    width: 88.195vw;
+    margin: auto 4.323%;
 }
 .cs3row3
 {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    grid-gap: 30px;
-    height: 280px;
-    width: 620px;
-    margin: 50px 385px 100px 385px;
+    grid-template-columns: 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw 6.945vw;
+    grid-gap: 2.08333vw;
+    height: fit-content;
+    width: 52.084vw;
+    margin: 3.603% 27.738% 7.205% 27.738%;
 }
 
 
 .w-350px
 {
-    width: 250px;
+    width: 19.098vw;
     margin-right: auto;
     margin-left: auto;
-    margin: 1% auto auto auto;
 }
 
 .w-300px
@@ -190,8 +167,46 @@
 .carousel-indicators
 {
     top: 0;
+    width: 100%;
     height: max-content;
-    margin: 705px 0 0 0;
+    margin: auto 0 0 0;
     background-color: rgba(0, 0, 0, .5);
 }
 
+.cs3hero
+{
+    position: absolute;
+    height: 69.71vh;
+    margin: 5.404% 0 0 10.807%;
+}
+
+.cs3middlebox
+{
+    position: absolute;
+    height: 115.36%;
+    width: 100%;
+    margin-top: 81.4956vh;
+}
+
+.cs3UserFlowIMGcontainer
+{
+    position: absolute;
+    width: 43.166%;
+    height: 83.27%; 
+    margin: 1.871% auto 1.871% 0.72%;
+}
+
+.cs3UserFlowIMGcontainer:hover
+{
+    box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px rgba(164, 5, 5, 1);
+    width: 46.763%;
+    height: 90.313%;
+    z-index: 1;
+    margin: 1.08% 0 1.08% 0.72%;
+}
+
+.cs3Screens
+{
+    height: 100%;
+    width: 100%;
+}

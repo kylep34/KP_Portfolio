@@ -1,25 +1,32 @@
 .cs2heading
 {
     position: absolute;
-    height: 112.272%;
+    height: 43.334vw;
     width:  100%;
     background-color: rgba(0, 0, 0, 0.85);;
+}
+
+.cs2hero
+{
+    position: absolute;
+    height: 31.25vw;
+    margin: 7.205% 0 0 3.243%;
 }
 
 .cs2middlebox
 {
     position: absolute;
-    height: 79.857%;
+    height: 49.584vw;
     width: 100%;
-    margin: 50.721% auto 88.833% auto;
+    margin: 44.957% auto 88.833% auto;
 }
 
 .cs2bottombox
 {
     position: absolute;
-    height: 1223px;
+    height: 234.375vw;
     width: 100%;
-    top: 1452px;
+    top: 92.917vw;
     background-color: rgba(0, 0, 0, .85);
 }
 .cs2title
@@ -32,35 +39,40 @@
 {
     position: absolute;
     top: 0;
-    margin: 161px 849px auto 241px;
+    width: 21.614%;
+    margin: 15.202% 61.168% auto 17.364%;
 }
 
 .cs2CardSort
 {
     position: absolute;
     top: 0;
-    margin: 262px 728px auto 362px;
+    width: 21.614%;
+    margin: 18.8765% 52.45% auto 26.081%
 }
 
 .cs2SiteMap
 {
     position: absolute;
     top: 0;
-    margin: 241px 977px auto 113px; 
+    width: 21.614%;
+    margin: 17.796% 70.3895% auto 8.142%;
 }
 
 .cs2RedesignMap
 {
     position: absolute;
     top: 0;
-    margin: 422px 1040px auto 50px;
+    width: 21.614%;
+    margin: 30.404% 74.64% auto 3.747%;
 }
 
 .cs2Style
 {
     position: absolute;
     top: 0;
-    margin: 398px 740px auto 350px;
+    width: 21.614%;
+    margin: 28.675% 53.026% auto 25.361%;
 }
 
 .cs2protoBanner, .cs2CardSortBanner, .cs2banner
@@ -75,41 +87,19 @@
 {
     box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px rgba(164, 5, 5, 1);
     z-index:1;
-    width: 350px;
+    width: 25.217%;
     opacity: 0.9;
 }
 
 #cs2Proto, #cs2CardSort, #cs2SiteMap, #cs2RedesignMap, #cs2Style
 {
-    width: 600px;
-    margin: -24px auto -24px 10px ;
+    width: 100%;
     position: absolute;
-}
-
-#cs2CardSort
-{
-    margin: -34px auto -34px 10px;
-}
-
-#cs2SiteMap
-{
-    margin: -25px auto -25px 10px;
-}
-
-#cs2RedesignMap
-{
-    margin: 6px auto 6px 10px;
-}
-
-#cs2Style
-{
-    margin: -59px auto -59px 10px;
 }
 
 #cs2Proto:hover, #cs2CardSort:hover, #cs2SiteMap:hover, #cs2RedesignMap:hover, #cs2Style:hover
 {
     box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px rgba(164, 5, 5, 1);
-    width: 650px;
     z-index: 1;
 }
 
@@ -137,22 +127,23 @@
 
 .lofiWires
 {
-    font-size: 36px;
+    position: relative;
+    font-size: 2.5vw;
     width: 100%;
     text-align: center;
-    margin-top: 85px;
-    padding: 50px 0px 25px 0px;
+    margin-top: 12.465%;
     text-decoration: underline;
 }
 
 .cs2hifiWires
 {
-    font-size: 36px;
-    height: 42px;;
+    position: relative;
+    font-size: 2.5vw;
+    line-height: 2.5vw ;
     width: 100%;
     text-align: center;
     margin-top: 690px;
-    margin: 50px 0px 25px 0px;
+    margin: 5.404% 0px 3.603% 0px;
     text-decoration: underline;
 }
 
@@ -166,40 +157,36 @@ a:visited
 }
 
 
-
-
-.cs2row1
+.cs2row1, .cs2row5
 {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
-    grid-gap: 20px;
-    height: 157px;
-    width: 1330px;
-    margin: 266px 30px auto 30px;
+    grid-template-columns: 14.982% 14.982% 14.982% 14.982% 14.982% 14.982%;
+    grid-gap: 1.875vw;
+    height: 21.875vw;
+    width: fit-content;
+    margin: 3.603% auto auto auto;
 }
 
-.cs2row2, .cs2row4
+.cs2row2, .cs2row3, .cs2row4, .cs2row6, .cs2row7, .cs2row8
 {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
-    grid-gap: 20px;
-    height: 157px;
-    width: 1330px;
-    margin: 60px 30px auto 30px;
+    grid-template-columns: auto auto auto auto auto auto ;
+    grid-gap: 1.875vw;
+    height: 21.875vw;
+    width: fit-content;
+    margin: 3.603% auto auto auto;
 }
 
-.cs2row3
-{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
-    grid-gap: 20px;
-    height: 157px;
-    width: 1330px;
-    margin: 107px 30px auto 30px;
-}
 
 .w-250px 
 {
-    width: 1300px ;
-    margin: 1% auto auto auto;
+    width: 90.278vw;
+    height: 88.7199vh;
+    margin: auto;
+}
+
+.cs2Screens
+{
+    width: 13.889vw;
+    height: 100%;
 }
